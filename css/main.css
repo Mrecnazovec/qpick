@@ -40,6 +40,7 @@ h1, p, h2, ul, li {
     margin-right: 75px;
 
 }
+
 .nav_logo:hover {
     color: #101010;
 }
@@ -223,6 +224,7 @@ h1, p, h2, ul, li {
     padding: 25px 0px 50px;
     height: 408px;
 }
+
 .modal .content_box {
     height: fit-content;
     border-radius: 0;
@@ -231,6 +233,7 @@ h1, p, h2, ul, li {
     -ms-border-radius: 0;
     -o-border-radius: 0;
 }
+
 .modal .content_box .star_box {
     margin-bottom: 30px;
 }
@@ -246,6 +249,7 @@ h1, p, h2, ul, li {
     top: 20px;
     cursor: pointer;
 }
+
 .heart_box_main.active {
     position: absolute;
     background-image: url(../assets/icons/heart_active.svg);
@@ -380,9 +384,20 @@ footer .navbar {
 
 .d-block {}
 
-.nav-item {
+.nav-item,
+.nav-item a {
     display: flex;
     align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+    text-decoration: none;
 }
 
 .language {
@@ -429,4 +444,5 @@ footer .navbar {
     width: 100%;
     padding: 0 !important;
 }
+
 /* modal end */
